@@ -1,0 +1,46 @@
+body {
+    background-image: url('bg_2.png');
+    background-repeat: no-repeat;
+    background-size: 1560px 720px;
+  }
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.number {
+    opacity: 0.6;
+        width: 300px;
+        border: 0px;
+        border-radius: 20px;
+        box-shadow: 3px 5px #888888;
+        color: black;
+}
+.result {
+    box-shadow: 4px 8px #888888;
+    opacity: 0.8;
+}
+img {
+    height: 60px;
+    width: 90px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
